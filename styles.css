@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 .navbar{
 	margin-left:600px;
-	word-spacing:20px
+	word-spacing:20px;
 	
 }
 
@@ -10,7 +10,7 @@
 	
 }
 
-.button{
+.Sign_in{
 	background-color:blue;
 	color:white;
 	border: blue;
