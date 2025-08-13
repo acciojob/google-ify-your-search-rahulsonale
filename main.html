@@ -1,47 +1,41 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google-ify Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    </div>
+    <div class="nav-right">
+      <a href="#">Gmail</a>
+      <a href="#">Images</a>
+      <button class="sign-in-btn">Sign in</button>
+    </div>
+  </nav>
 
-<html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+  <!-- Main Search Section -->
+  <main class="main-section">
+    <div class="search-bar">
+      <input type="search" placeholder="Search Google or type a URL">
+      <button class="google-search-btn">Google Search</button>
+    </div>
+  </main>
 
-  <body>
-    <!-- the entire body must be written by student -->
-	  <div class ="navbar">
-	  <nav>
-		  Gmail Images 
-		  <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/9_Dots_Blue_Unsolved.png" alt ="logo" class="Logo">
-		  <input type="button" class="Sign_in">Sign in </input>
-	  </nav>
-		  </div>
-	  <main>
-		  <div class="Centre">
-		
-		  </div>
-
-		  <div class="search-bar">
-			  <input type="search" id="search" name="search" class="Search-here">
-			  <label for="search"></label>
-			
-		  </div>
-
-		  <div class="Google-search">
-				<button class="para">Google Search</button>
-				  <button class="para">I'm Feeling Lucky</button>
-			  
-		  </div>
-	  </main>
-
-	  <footer>
-		  <div class = "footer">
-		  <p>India</p>
-		  <p>About</p>
-		  <p>Privacy</p>
-		  <p>Terms</p>
-		  <p>Settings</p>
-		  </div>
-	  </footer>
-	  
-    <script type="text/javascript" src="./script.js"></script>
-  </body>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="l_ftr">
+      India · <a href="https://policies.google.com/privacy" target="_blank">Privacy</a>
+    </div>
+    <div class="r_ftr">
+      <a href="#">Terms</a>
+      <a href="#">Settings</a>
+    </div>
+  </footer>
+</body>
 </html>
