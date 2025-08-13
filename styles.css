@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+.navbar{
+	margin-left:600px;
+	word-spacing:20px
+	
+}
+
+.Logo{
+	height: 20px;
+	
+}
+
+.button{
+	background-color:blue;
+	color:white;
+	border: blue;
+	width:75px;
+	height:25px;
+
+}
+
+.Centre{
+	height:200px;
+	width:400px;
+	background-image:url("https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw" );
+	background-size:cover;
+	margin-left:200px;
+	margin-top:40px;
+}
+
+.Search-here{
+	margin-left:130px;
+	height:40px;
+	width:550px;
+	border-radius:10px;
+	border:2px solid grey;
+}
+
+.Google-search{
+	display:flex;
+	justify-content: center;
+	gap:20px;
+	margin-top:20px;
+	
+}
+.footer{
+	display:flex;
+	margin-top:300px;
+	justify-content:space-evenly;
+	background-color:grey;
+}
